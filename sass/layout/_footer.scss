@@ -12,6 +12,7 @@
   }
 
   &__logo {
+    @include logo;
     margin-bottom: 20px;
   }
 }

@@ -1,4 +1,15 @@
-%btn {
+@mixin logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  display: inline-block;
+}
+
+
+@mixin btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -20,3 +31,4 @@
     outline: 1px dotted rgb(73, 71, 71);
   }
 }
+

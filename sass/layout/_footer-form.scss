@@ -47,7 +47,7 @@
 }
 
 .footer__btn {
-  @extend %btn;
+  @include btn;
   height: 50px;
   display: flex;
   align-items: center;
