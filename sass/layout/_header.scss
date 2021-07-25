@@ -10,6 +10,7 @@
 
   &__logo {
     @include logo;
+    margin-right: 94px;
   }
 
   &__mail {
